@@ -14,3 +14,6 @@ if __name__ == '__main__':
     print(uendel.idade)
     for filho in uendel.filhos:
         print(filho.nome)
+    del uendel.filhos
+    print(uendel.__dict__)
+    print(esther.__dict__)
